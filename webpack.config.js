@@ -54,6 +54,7 @@ module.exports = {
         { from: 'src/favicon.ico', to: '', noErrorOnMissing: true },
         { from: 'src/index.html', to: '' },
         { from: 'src/public', to: 'public' },
+        { from: 'src/_redirects', to: '' },
       ],
     }),
   ],
